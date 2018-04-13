@@ -1,0 +1,698 @@
+ERROR 2018-03-19 09:53:27,866 52733ms MvcApplication         Application_Error  - The view 'CreateUser' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/CreateUser.aspx
+~/Views/User/CreateUser.ascx
+~/Views/Shared/CreateUser.aspx
+~/Views/Shared/CreateUser.ascx
+~/Views/User/CreateUser.cshtml
+~/Views/User/CreateUser.vbhtml
+~/Views/Shared/CreateUser.cshtml
+~/Views/Shared/CreateUser.vbhtml
+ERROR 2018-03-19 09:54:31,783 116651ms MvcApplication         Application_Error  - The view 'CreateUser' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/CreateUser.aspx
+~/Views/User/CreateUser.ascx
+~/Views/Shared/CreateUser.aspx
+~/Views/Shared/CreateUser.ascx
+~/Views/User/CreateUser.cshtml
+~/Views/User/CreateUser.vbhtml
+~/Views/Shared/CreateUser.cshtml
+~/Views/Shared/CreateUser.vbhtml
+ERROR 2018-03-19 10:16:29,812 40373ms MvcApplication         Application_Error  - The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Asset/Index.aspx
+~/Views/Asset/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Asset/Index.cshtml
+~/Views/Asset/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+ERROR 2018-03-22 20:41:37,930 88612ms MvcApplication         Application_Error  - The controller for path '/Asset/Create' was not found or does not implement IController.
+ERROR 2018-03-22 20:43:28,803 199484ms MvcApplication         Application_Error  - The controller for path '/Asset/Create' was not found or does not implement IController.
+ERROR 2018-03-22 20:56:06,496 349418ms MvcApplication         Application_Error  - C:\Users\User\AppData\Local\Temp\Temporary ASP.NET Files\vs\10a5763b\cccd619f\App_Web_create.cshtml.37b9552a.uto5vwvj.0.cs(31): error CS0234: The type or namespace name 'AssetViewModel' does not exist in the namespace 'Web.ViewModels' (are you missing an assembly reference?)
+ERROR 2018-03-22 22:33:47,086 440156ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-22 23:24:50,232 307906ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-22 23:28:14,502 23034ms MvcApplication         Application_Error  - One or more validation errors were detected during model generation:
+
+Data.FacilityUser: : EntityType 'FacilityUser' has no key defined. Define the key for this EntityType.
+FacilityUsers: EntityType: EntitySet 'FacilityUsers' is based on type 'FacilityUser' that has no keys defined.
+
+ERROR 2018-03-22 23:28:45,524 54056ms MvcApplication         Application_Error  - One or more validation errors were detected during model generation:
+
+Data.FacilityUser: : EntityType 'FacilityUser' has no key defined. Define the key for this EntityType.
+FacilityUsers: EntityType: EntitySet 'FacilityUsers' is based on type 'FacilityUser' that has no keys defined.
+
+ERROR 2018-03-23 00:01:58,885 412115ms MvcApplication         Application_Error  - The properties expression 'u => new <>f__AnonymousType0`2(Facility_Id = u.Facility_Id, User_Id = u.User_Id)' is not valid. The expression should represent a property: C#: 't => t.MyProperty'  VB.Net: 'Function(t) t.MyProperty'. When specifying multiple properties use an anonymous type: C#: 't => new { t.MyProperty1, t.MyProperty2 }'  VB.Net: 'Function(t) New With { t.MyProperty1, t.MyProperty2 }'.
+ERROR 2018-03-23 07:29:35,055 291238ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 07:57:54,568 194762ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 08:00:03,597 323792ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 08:04:26,337 586532ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 08:23:46,651 577477ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 12:44:22,038 1008835ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-23 23:25:31,006 367022ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-03-23 23:27:31,427 487444ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-03-24 01:38:29,956 574276ms MvcApplication         Application_Error  - The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+ERROR 2018-03-24 01:46:57,065 146757ms MvcApplication         Application_Error  - The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+ERROR 2018-03-24 21:40:00,002 208504ms MvcApplication         Application_Error  - DataBinding: 'System.Data.Entity.DynamicProxies.Facility_5429161E95C87E45A3F1D6CF31A61E3632042E1B7767E805CD49EFED25DAB21E' does not contain a property with the name 'Facility'.
+ERROR 2018-03-24 21:45:40,117 548620ms MvcApplication         Application_Error  - C:\Users\User\Documents\Inventory-management-master\Inventory-management\Web\Views\User\UserList.cshtml(42): error CS1061: 'UserViewModel' does not contain a definition for 'FacilityId' and no extension method 'FacilityId' accepting a first argument of type 'UserViewModel' could be found (are you missing a using directive or an assembly reference?)
+ERROR 2018-03-24 21:56:54,450 12314ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-03-24 23:01:36,946 319232ms MvcApplication         Application_Error  - Value cannot be null.
+Parameter name: source
+ERROR 2018-03-24 23:04:56,419 518706ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-24 23:17:25,529 268611ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-24 23:26:21,495 71240ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-24 23:29:17,847 247592ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-24 23:38:50,306 347272ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 00:00:18,628 280323ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 00:02:29,909 411604ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 00:19:32,575 271498ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 01:13:29,735 676054ms MvcApplication         Application_Error  - The view 'Delete' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/Delete.aspx
+~/Views/User/Delete.ascx
+~/Views/Shared/Delete.aspx
+~/Views/Shared/Delete.ascx
+~/Views/User/Delete.cshtml
+~/Views/User/Delete.vbhtml
+~/Views/Shared/Delete.cshtml
+~/Views/Shared/Delete.vbhtml
+ERROR 2018-03-25 02:33:46,367 2025063ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 02:37:25,573 2244269ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 03:46:49,775 645751ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 04:05:28,579 497432ms MvcApplication         Application_Error  - The parameter 'expression' must evaluate to an IEnumerable when multiple selection is allowed.
+ERROR 2018-03-25 04:15:42,161 1111014ms MvcApplication         Application_Error  - The parameter 'expression' must evaluate to an IEnumerable when multiple selection is allowed.
+ERROR 2018-03-25 04:25:02,549 1671402ms MvcApplication         Application_Error  - C:\Users\User\AppData\Local\Temp\Temporary ASP.NET Files\vs\10a5763b\cccd619f\App_Web_edit.cshtml.37b9552a.t-nszjfm.0.cs(31): error CS0234: The type or namespace name 'AssetViewModel' does not exist in the namespace 'Web.ViewModels' (are you missing an assembly reference?)
+ERROR 2018-03-25 04:34:12,368 2221221ms MvcApplication         Application_Error  - Value cannot be null.
+Parameter name: items
+ERROR 2018-03-25 04:54:11,491 678026ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 04:54:11,497 678032ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 04:58:30,810 937346ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-25 05:01:03,976 1090511ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-26 17:26:25,219 477888ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-26 17:28:14,284 586954ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-03-27 13:52:23,497  6015ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-03-27 13:52:39,308 21826ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-03-27 13:53:47,905 90423ms MvcApplication         Application_Error  - Unable to update database to match the current model because there are pending changes and automatic migration is disabled. Either write the pending model changes to a code-based migration or enable automatic migration. Set DbMigrationsConfiguration.AutomaticMigrationsEnabled to true to enable automatic migration.
+ERROR 2018-03-27 13:57:45,630  3795ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-03-27 14:04:35,798 413962ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-03-27 14:04:35,963 414127ms MvcApplication         Application_Error  - A public action method 'FacilityTest' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-03-30 16:11:43,926  7501ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+
+ERROR 2018-03-30 19:36:25,646  1059ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 19:36:55,406  1030ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 19:45:31,971  1064ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 19:45:44,808 13901ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-03-30 19:47:20,106  1023ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 19:55:50,404  1143ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 19:56:10,919 21658ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 19:58:27,929 20231ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 19:58:39,505 31807ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 19:59:33,221  5855ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 19:59:42,153 14787ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:17:19,648   951ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 20:19:30,565 18507ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:20:41,494  6587ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:21:02,647 27741ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:21:51,854  8285ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:26:31,536  6328ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:27:59,744 18258ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:29:11,475  1057ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 20:30:12,071  1174ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 20:30:41,328   878ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 20:32:59,843 28834ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:34:41,926 11836ms MvcApplication         Application_Error  - The controller for path '/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:36:06,038 11223ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:38:10,104 59534ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:44:36,626   857ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-30 20:45:11,995 36226ms MvcApplication         Application_Error  - The controller for path '/StandardController/Login' was not found or does not implement IController.
+ERROR 2018-03-30 20:46:23,837  1020ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-31 00:33:02,434 318633ms MvcApplication         Application_Error  - The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/UserList.aspx
+~/Views/Standard/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/Standard/UserList.cshtml
+~/Views/Standard/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml
+ERROR 2018-03-31 00:34:57,263 433462ms MvcApplication         Application_Error  - The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/UserList.aspx
+~/Views/Standard/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/Standard/UserList.cshtml
+~/Views/Standard/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml
+ERROR 2018-03-31 00:35:29,029 465228ms MvcApplication         Application_Error  - The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/UserList.aspx
+~/Views/Standard/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/Standard/UserList.cshtml
+~/Views/Standard/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml
+ERROR 2018-03-31 00:35:35,694 471893ms MvcApplication         Application_Error  - The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/UserList.aspx
+~/Views/Standard/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/Standard/UserList.cshtml
+~/Views/Standard/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml
+ERROR 2018-03-31 00:36:39,555  1148ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-03-31 00:36:47,257  8849ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-03-31 00:36:48,959 10551ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-03-31 01:18:58,382 50611ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-01 15:22:12,508  1743ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:27:06,707   819ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:31:08,556  1553ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:32:07,873   988ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:32:51,375  1023ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:33:38,105   992ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:34:35,341   871ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:36:59,401   802ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:39:48,281   841ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:45:05,104   936ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:46:21,909   857ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:47:05,689   871ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:47:51,310   843ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:48:42,974   859ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:49:26,927   816ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:52:00,490   832ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:54:26,609   848ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:55:18,516   838ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:56:07,278   831ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:57:09,618  1060ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 15:58:32,549  1217ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 16:01:55,494   828ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 16:03:12,139   802ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 16:04:48,496 97159ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-01 16:05:04,663 113327ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-01 16:05:26,868 135531ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-01 16:07:11,419 12892ms MvcApplication         Application_Error  - The controller for path '/Faciltiy/FacilityList' was not found or does not implement IController.
+ERROR 2018-04-01 16:07:26,319 27792ms MvcApplication         Application_Error  - The controller for path '/Faciltiy/FacilityList' was not found or does not implement IController.
+ERROR 2018-04-01 16:09:08,235 29498ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.ERROR 2018-04-01 18:56:53,310 28950ms MvcApplication         Application_Error  - C:\Users\Public\GitRepos\nanditBranch\Inventory-management\Web\Views\User\UserList.cshtml(34): error CS1061: 'UserViewModel' does not contain a definition for 'EmailId' and no extension method 'EmailId' accepting a first argument of type 'UserViewModel' could be found (are you missing a using directive or an assembly reference?)
+ERROR 2018-04-01 18:59:07,729 163370ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-04-01 18:59:15,834 171474ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-04-01 19:01:35,156 136842ms MvcApplication         Application_Error  - There is already an open DataReader associated with this Command which must be closed first.
+ERROR 2018-04-01 19:32:30,685 27041ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 19:32:51,240 47595ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 19:34:04,920  1809ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 19:34:42,254 39143ms MvcApplication         Application_Error  - A public action method 'FacilityList' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-01 19:35:18,368  1903ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 19:35:44,668 28203ms MvcApplication         Application_Error  - The controller for path '/Faciltiy/FacilityList' was not found or does not implement IController.
+ERROR 2018-04-01 19:36:06,093 49628ms MvcApplication         Application_Error  - The controller for path '/Faciltiy/FacilityList' was not found or does not implement IController.
+ERROR 2018-04-01 19:36:11,880 55415ms MvcApplication         Application_Error  - The controller for path '/Faciltiy/FacilityList' was not found or does not implement IController.
+ERROR 2018-04-01 19:37:17,943  1165ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 19:37:38,287  1630ms MvcApplication         Application_Error  - The view 'FacilityList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/FacilityList.aspx
+~/Views/Standard/FacilityList.ascx
+~/Views/Shared/FacilityList.aspx
+~/Views/Shared/FacilityList.ascx
+~/Views/Standard/FacilityList.cshtml
+~/Views/Standard/FacilityList.vbhtml
+~/Views/Shared/FacilityList.cshtml
+~/Views/Shared/FacilityList.vbhtml
+ERROR 2018-04-01 20:03:39,812 187360ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-02 11:32:24,767 55507477ms MvcApplication         Application_Error  - A public action method 'Resource' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-02 11:32:45,760 55528470ms MvcApplication         Application_Error  - A public action method 'Resource' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-02 11:56:05,514 56928224ms MvcApplication         Application_Error  - The controller for path '/Resource13/Edit' was not found or does not implement IController.
+ERROR 2018-04-02 11:57:27,176 57009886ms MvcApplication         Application_Error  - A public action method 'Edit13' was not found on controller 'Web.Controllers.ResourceController'.
+ERROR 2018-04-02 21:10:31,199 18146ms MvcApplication         Application_Error  - A public action method 'GeneratePDF' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-02 22:59:29,384 35260ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-03 00:19:13,488 181089ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-03 00:52:34,111 230773ms MvcApplication         Application_Error  - The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Create.aspx
+~/Views/Standard/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Standard/Create.cshtml
+~/Views/Standard/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+ERROR 2018-04-03 00:55:00,079 21163ms MvcApplication         Application_Error  - The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Create.aspx
+~/Views/Standard/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Standard/Create.cshtml
+~/Views/Standard/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+ERROR 2018-04-03 00:56:01,856 82939ms MvcApplication         Application_Error  - The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Create.aspx
+~/Views/Standard/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Standard/Create.cshtml
+~/Views/Standard/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+ERROR 2018-04-03 00:56:06,148 87232ms MvcApplication         Application_Error  - The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Create.aspx
+~/Views/Standard/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Standard/Create.cshtml
+~/Views/Standard/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+ERROR 2018-04-03 16:14:10,284 55171368ms MvcApplication         Application_Error  - A public action method 'Details' was not found on controller 'Web.Controllers.ResourceController'.
+ERROR 2018-04-03 17:02:16,936 34642ms MvcApplication         Application_Error  - A public action method 'PrintReport' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-03 17:26:32,568 53408ms MvcApplication         Application_Error  - A public action method 'PrintReport' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-03 17:32:21,780 40362ms MvcApplication         Application_Error  - A public action method 'PrintReport' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-03 18:13:54,478 425651ms MvcApplication         Application_Error  - The document has no pages.
+ERROR 2018-04-03 18:17:25,975 637148ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:24:48,569 185956ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:27:51,126 368513ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:30:27,880 525267ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 18:33:00,255 677642ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:33:11,564  1331ms MvcApplication         Application_Error  - The controller for path '/__browserLink/requestData/7ee4459de22e48f6974751d32f4745a4' was not found or does not implement IController.
+ERROR 2018-04-03 18:34:23,139 72906ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:35:41,661 151428ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:37:06,340 236107ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:41:08,273 478040ms MvcApplication         Application_Error  - Invalid nested tag td found, expected closing tag br.
+ERROR 2018-04-03 18:47:18,756 848522ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 18:53:14,962 1204729ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 19:03:52,800 1842567ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 19:11:57,200 2326967ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 19:12:31,777 2361544ms MvcApplication         Application_Error  - The number of columns in PdfPTable constructor must be greater than zero.
+ERROR 2018-04-03 19:17:11,876 2641643ms MvcApplication         Application_Error  - Invalid nested tag form found, expected closing tag input.
+ERROR 2018-04-03 19:17:52,946 2682713ms MvcApplication         Application_Error  - Invalid nested tag form found, expected closing tag input.
+ERROR 2018-04-03 19:34:03,078 3652845ms MvcApplication         Application_Error  - Invalid nested tag form found, expected closing tag input.
+ERROR 2018-04-03 19:34:42,929 3692696ms MvcApplication         Application_Error  - Invalid nested tag form found, expected closing tag input.
+ERROR 2018-04-03 19:36:56,597 3826364ms MvcApplication         Application_Error  - Invalid nested tag form found, expected closing tag input.
+ERROR 2018-04-03 21:55:47,253 50412ms MvcApplication         Application_Error  - The view 'Export' or its master was not found, searched locations: 
+~/Views/Facility/Export.aspx
+~/Views/Facility/Export.ascx
+~/Views/Shared/Export.aspx
+~/Views/Shared/Export.ascx
+~/Views/Facility/Export.cshtml
+~/Views/Facility/Export.vbhtml
+~/Views/Shared/Export.cshtml
+~/Views/Shared/Export.vbhtml
+
+ERROR 2018-04-04 21:25:11,227 83685637ms MvcApplication         Application_Error  - C:\Users\Public\GitRepos\nanditBranch\Inventory-management\Web\Views\User\Edit.cshtml(76): error CS0103: The name 'listBox' does not exist in the current context
+ERROR 2018-04-05 08:47:11,412  1408ms MvcApplication         Application_Error  - The controller for path '/__browserLink/requestData/7d2bbf09f890489eb2377a25326223cc' was not found or does not implement IController.
+ERROR 2018-04-05 08:51:47,661 277657ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-05 09:18:24,931 1874927ms MvcApplication         Application_Error  - The view 'Delete' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/Delete.aspx
+~/Views/User/Delete.ascx
+~/Views/Shared/Delete.aspx
+~/Views/Shared/Delete.ascx
+~/Views/User/Delete.cshtml
+~/Views/User/Delete.vbhtml
+~/Views/Shared/Delete.cshtml
+~/Views/Shared/Delete.vbhtml
+ERROR 2018-04-05 09:21:06,687 2036683ms MvcApplication         Application_Error  - A public action method 'Details' was not found on controller 'Web.Controllers.ResourceController'.
+ERROR 2018-04-05 09:22:48,510 2138506ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.ResourceController'.
+ERROR 2018-04-05 09:25:37,651 2307647ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.ResourceController'.
+ERROR 2018-04-05 09:28:07,088 2457084ms MvcApplication         Application_Error  - A public action method 'Index' was not found on controller 'Web.Controllers.FacilityController'.
+ERROR 2018-04-05 09:34:13,691 79275ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 09:39:29,980 395564ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 09:46:17,666 803251ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 09:50:19,557 1045142ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 09:51:09,297 1094881ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 15:46:33,220 59647ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 15:58:14,978 51145ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 15:59:00,218 96385ms MvcApplication         Application_Error  - A public action method 'Login' was not found on controller 'Web.Controllers.UserController'.
+ERROR 2018-04-05 15:59:08,136 104303ms MvcApplication         Application_Error  - The controller for path '/Account/Login' was not found or does not implement IController.
+ERROR 2018-04-05 15:59:35,975 132142ms MvcApplication         Application_Error  - A public action method 'userlogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-05 16:03:04,196 194443ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:03:10,782 201029ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:03:11,927 202174ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:03:12,751 202998ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:03:13,223 203470ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:03:13,827 204074ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 16:41:03,196 2473443ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 17:10:06,757 1624379ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 17:17:13,552 2051173ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 17:19:21,049 2178670ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 17:20:45,582 49701ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-05 18:02:20,839 2544957ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-05 18:59:12,002  1109ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-05 19:29:14,740  1323ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.ResourceController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 14:54:46,986 160796ms MvcApplication         Application_Error  - A public action method 'userlogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 14:54:56,664 170473ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-06 14:58:53,477  1193ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 17:30:28,091 23303ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'isactive' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult UserList(Boolean)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 17:30:47,753 42964ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'isactive' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult UserList(Boolean)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 17:31:44,105 99316ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'isactive' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult UserList(Boolean)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:10:06,869 263705ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-06 18:30:20,474   927ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:31:34,942   912ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:40:22,649   954ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:41:19,749   945ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:43:22,381   946ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:43:42,567 21132ms MvcApplication         Application_Error  - C:\Users\Public\GitRepos\nanditBranch\Inventory-management\Web\Views\User\Edit.cshtml(93): error CS0103: The name 'faciltiy' does not exist in the current context
+ERROR 2018-04-06 18:44:48,664   924ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:46:50,521   894ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:48:36,127   890ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:51:11,171   914ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 18:52:23,380   954ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Edit(Int32)' in 'Web.Controllers.UserController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-06 21:02:26,816 190327ms MvcApplication         Application_Error  - Object reference not set to an instance of an object.
+ERROR 2018-04-06 21:02:34,317  1433ms MvcApplication         Application_Error  - The controller for path '/__browserLink/requestData/5fa85d12396645b0a315e05c539f723a' was not found or does not implement IController.
+ERROR 2018-04-06 21:15:08,144 755261ms MvcApplication         Application_Error  - A public action method 'LogOff' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 21:39:25,305 23326ms MvcApplication         Application_Error  - The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/Create.aspx
+~/Views/User/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/User/User.master
+~/Views/Shared/User.master
+~/Views/User/User.cshtml
+~/Views/User/User.vbhtml
+~/Views/Shared/User.cshtml
+~/Views/Shared/User.vbhtml
+ERROR 2018-04-06 21:49:14,517 34974ms MvcApplication         Application_Error  - C:\Users\Public\GitRepos\masterBranch\Inventory-management\Web\Views\Standard\UserLogin.cshtml(21): error CS1503: Argument 3: cannot convert from '<anonymous type: string class>' to 'string'
+ERROR 2018-04-06 21:49:14,633 35090ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,655 35112ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,670 35128ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,692 35149ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,715 35172ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,727 35184ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,737 35194ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,753 35210ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,769 35227ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,820 35277ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,841 35298ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,854 35311ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,867 35324ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,882 35339ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,890 35347ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,904 35361ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,916 35373ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,932 35389ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:14,962 35419ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,000 35457ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,209 35666ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,276 35733ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,315 35772ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,324 35781ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,334 35791ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,341 35798ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,348 35805ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,360 35818ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,370 35827ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,379 35836ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,387 35844ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,392 35849ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,400 35857ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,406 35864ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,415 35872ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,425 35882ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,434 35891ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,443 35900ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,452 35909ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,463 35920ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:15,476 35933ms MvcApplication         Application_Error  - A potentially dangerous Request.QueryString value was detected from the client (message="...ert from '<anonymous type: str...").
+ERROR 2018-04-06 21:49:55,364  1823ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 21:50:28,454 34913ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-06 21:56:10,609  1737ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 21:56:46,898 38026ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-06 21:59:29,366  1601ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 22:01:45,505  3412ms MvcApplication         Application_Error  - A public action method 'UserLogin' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 22:01:58,880 16787ms MvcApplication         Application_Error  - A public action method 'Login' was not found on controller 'Web.Controllers.UserController'.
+ERROR 2018-04-06 22:06:41,364 76558ms MvcApplication         Application_Error  - A public action method 'LogOff' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-06 23:54:29,177 30661ms MvcApplication         Application_Error  - A public action method 'UpdateCount' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-07 00:01:17,363 135720ms MvcApplication         Application_Error  - The required anti-forgery form field "__RequestVerificationToken" is not present.
+ERROR 2018-04-07 00:01:56,912 175269ms MvcApplication         Application_Error  - The required anti-forgery form field "__RequestVerificationToken" is not present.
+ERROR 2018-04-07 00:02:20,774 199131ms MvcApplication         Application_Error  - The required anti-forgery form field "__RequestVerificationToken" is not present.
+ERROR 2018-04-07 00:17:42,799 33932ms MvcApplication         Application_Error  - The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.Resource_24FA90F0E39E8F46780DEA92BC2AC8E51D4DAF9A222F120FD9E51A886DB82CA0', but this dictionary requires a model item of type 'Web.ViewModels.ResourceViewModel'.
+ERROR 2018-04-07 00:23:47,474 187987ms MvcApplication         Application_Error  - The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.Resource_24FA90F0E39E8F46780DEA92BC2AC8E51D4DAF9A222F120FD9E51A886DB82CA0', but this dictionary requires a model item of type 'Web.ViewModels.ResourceViewModel'.
+ERROR 2018-04-07 00:26:09,354 38523ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:27:26,372 115542ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:28:20,187 169357ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:39:48,909 188149ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:41:47,457 306697ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:46:27,032 85818ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 00:51:23,551 54349ms MvcApplication         Application_Error  - The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult MonitorFacility(Int32)' in 'Web.Controllers.StandardController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+ERROR 2018-04-07 01:06:00,223 32819ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:03:18,244 12832ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-12 19:04:30,869 85457ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:20:06,492 207124ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:20:13,296 213928ms MvcApplication         Application_Error  - The controller for path '/Login/Standard' was not found or does not implement IController.
+ERROR 2018-04-12 19:22:55,762   851ms MvcApplication         Application_Error  - The controller for path '/__browserLink/requestData/6c8fa1835acc4fdf9c53f2b4d85be3af' was not found or does not implement IController.
+ERROR 2018-04-12 19:23:10,666 15754ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:34:26,734 691823ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,751 691840ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,759 691848ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,765 691854ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,771 691860ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,784 691873ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,795 691884ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,805 691893ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,819 691907ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,828 691916ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,835 691923ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,844 691932ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,851 691939ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,860 691948ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,868 691956ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,876 691964ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,883 691971ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,891 691979ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,902 691990ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,909 691997ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:26,919 692007ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,068 692157ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,078 692167ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,089 692178ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,117 692206ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,132 692221ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,145 692234ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,180 692268ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,189 692277ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,197 692285ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,203 692291ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,211 692299ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,220 692308ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,226 692314ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,231 692319ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,237 692325ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,243 692331ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,248 692336ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,254 692342ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,260 692348ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,265 692353ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:27,271 692359ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,304 697392ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,330 697418ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,350 697438ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,365 697453ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,382 697470ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,390 697478ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,398 697486ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,406 697494ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,414 697502ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,421 697509ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,430 697518ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,439 697528ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,447 697535ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,454 697542ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,464 697553ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,472 697561ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,477 697566ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,482 697571ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,489 697578ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,495 697584ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:34:32,501 697590ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,886 728975ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,892 728981ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,898 728987ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,904 728992ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,910 728998ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,916 729004ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,921 729009ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,927 729015ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,932 729020ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,937 729025ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,943 729031ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,949 729037ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,954 729042ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,961 729049ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,968 729056ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,974 729062ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,980 729068ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,985 729073ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,990 729078ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:03,997 729085ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:35:04,010 729098ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,398 790486ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,404 790492ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,410 790498ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,415 790503ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,421 790509ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,428 790517ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,434 790523ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,442 790531ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,448 790537ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,454 790543ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,461 790550ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,467 790556ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,473 790562ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,479 790568ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,486 790575ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,492 790581ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,499 790588ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,506 790595ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,513 790602ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,519 790608ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:36:05,526 790614ms MvcApplication         Application_Error  - C:\Users\Nandzz\Documents\Inventory_Management_System\Web\Views\Shared\_Layout.cshtml(45): error CS1041: Identifier expected; 'else' is a keyword
+ERROR 2018-04-12 19:44:03,533 73406ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:47:06,381 256253ms MvcApplication         Application_Error  - The view 'Login' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Standard/Login.aspx
+~/Views/Standard/Login.ascx
+~/Views/Shared/Login.aspx
+~/Views/Shared/Login.ascx
+~/Views/Standard/Login.cshtml
+~/Views/Standard/Login.vbhtml
+~/Views/Shared/Login.cshtml
+~/Views/Shared/Login.vbhtml
+ERROR 2018-04-12 19:55:00,874 72440ms MvcApplication         Application_Error  - A public action method 'FacilityList' was not found on controller 'Web.Controllers.StandardController'.
+ERROR 2018-04-12 19:56:42,357 32870ms MvcApplication         Application_Error  - A public action method 'FacilityList' was not found on controller 'Web.Controllers.StandardController'.

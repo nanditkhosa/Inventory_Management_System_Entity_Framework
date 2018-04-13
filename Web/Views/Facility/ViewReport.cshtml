@@ -1,0 +1,107 @@
+﻿@model Web.ViewModels.StandardIndexViewModel
+@{
+    ViewBag.Title = "Facilities";
+}
+<div class="tray_main" id="Grid">
+    <h2>Report To Monitor Users Updates On Inventory</h2>
+
+    <table class="table-bordered" id="report">
+        <tr>
+            <th>
+                Facility Name
+            </th>
+            <th>
+                Landmark
+            </th>
+            <th>
+                Owner
+            </th>
+            <th style="width:35%">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Resource Name</th>
+                            <th>Initial Count</th>
+                            <th>Current Count</th>
+                            <th>Comment</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model.Facilities)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Landmark)
+                </td>
+                <td>
+                    @foreach (var usr in item.UsersAssigned)
+                    {
+                        @Html.DisplayFor(modelItem => usr.UserName)
+                        <br />
+
+                    }
+                </td>
+                <td>
+                    <table>
+                        @foreach (var res in item.ResourcesAssigned)
+                        {
+                            if (res.CurrentCount != res.InitialCount)
+                            {
+                                <tr style="color:white; Background: red;">
+                                    <td>@Html.ActionLink(res.Name, "Edit/" + res.Id, "Resource")</td>
+                                    <td>@Html.DisplayFor(modelItem => res.InitialCount)</td>
+                                    <td>@Html.DisplayFor(modelItem => res.CurrentCount)</td>
+                                    <td>@Html.DisplayFor(modelItem => res.Comment)</td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr style="color:white; Background:lightgreen">
+                                    <td>@Html.ActionLink(res.Name, "Edit/" + res.Id, "Resource")</td>
+                                    <td>@Html.DisplayFor(modelItem => res.InitialCount)</td>
+                                    <td>@Html.DisplayFor(modelItem => res.CurrentCount)</td>
+                                    <td>@Html.DisplayFor(modelItem => res.Comment)</td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </td>
+            </tr>
+
+
+        }
+    </table>
+
+
+    <div>
+        @using (Html.BeginForm("ViewAsPdf", "Facility", FormMethod.Post))
+        {
+            <input type="hidden" name="GridHtml" />
+            <input type="submit" id="btnSubmit" value="ViewAsPdf" />
+        }
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            $("input[name='GridHtml']").val($("#Grid").html());
+        });
+    });
+</script>
+
+
+
+@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
+

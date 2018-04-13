@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="AppContext-Web.config Connection String" value="Server=aa1u3ngtnsqpwkk.c2hke7xmmmkj.us-east-2.rds.amazonaws.com;Initial Catalog=IMSMarch30;User Id=InventoryManagementAppAdmin;Password=October#123;" />
+</parameters>

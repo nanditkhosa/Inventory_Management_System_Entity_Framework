@@ -1,0 +1,22 @@
+﻿@model Web.ViewModels.StandardIndexViewModel
+@{
+    ViewBag.Title = "Facilities";
+}
+<div class="tray_main">
+    <h2>Click on below Facilities To Check Inventory of Their Resources</h2>
+    <table class="table-bordered">
+        @Html.ActionLink("Back To Home", "UserHome", "Standard")
+
+        <table class="table-bordered">
+            @foreach (var Facility in Model.Facilities)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(Facility.Name, "MonitorFacility/" + Facility.Id)
+                    </td>
+                </tr>
+            }
+        </table>
+    </table>
+        <br />
+</div>

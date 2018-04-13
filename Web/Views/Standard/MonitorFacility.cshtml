@@ -1,0 +1,70 @@
+﻿@model Web.ViewModels.FacilityViewModel
+
+@{
+    /**/
+
+    ViewBag.Title = "MonitorFacility";
+}
+
+<h2>MonitorFacility</h2>
+<div class="form-horizontal">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div>
+            <p>
+                @Html.DisplayNameFor(model => model.Name) :  @Html.DisplayFor(model => model.Name)
+            </p>
+            <p>
+                @Html.DisplayNameFor(model => model.Landmark) :  @Html.DisplayFor(model => model.Landmark)
+            </p>
+            <p>
+                @Html.DisplayNameFor(model => model.Address) :  @Html.DisplayFor(model => model.Address)
+            </p>
+            <p>
+                @Html.DisplayNameFor(model => model.City) : @Html.DisplayFor(model => model.City)
+            </p>
+            <p>
+                @Html.DisplayNameFor(model => model.State) : @Html.DisplayFor(model => model.State)
+            </p>
+            <p>
+                @Html.DisplayNameFor(model => model.ZipCode) : @Html.DisplayFor(model => model.ZipCode)
+            </p>
+        </div>
+
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Current Count
+            </th>
+            <th>
+                Update
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.ResourcesAssigned)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CurrentCount)
+                </td>
+                <td>
+                    @Html.ActionLink("Update Count", "UpdateCount", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    </div>

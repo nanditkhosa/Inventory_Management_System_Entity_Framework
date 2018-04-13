@@ -1,0 +1,66 @@
+﻿@model Web.ViewModels.StandardIndexViewModel
+
+@{
+    ViewBag.Title = "ResourceList";
+}
+
+<h2>Active Resource List</h2>
+
+<span style="word-spacing: 30px">
+    @Html.ActionLink("InactiveResources", "InactiveResourceList", "Resource")
+    @Html.ActionLink("ActiveRecources", "ResourceList", "Resource")
+</span>
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Initial Count
+        </th>
+        <th>
+            Current Count
+        </th>
+        <th>
+            IsActive
+        </th>
+        <th>
+            Facility Assisgned To
+        </th>
+        <th>
+            Actions
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Resources)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InitCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Facility.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit/Deactivate Resource", "Edit", new { id = item.Id })
+        </td>
+    </tr>
+    }
+
+</table>

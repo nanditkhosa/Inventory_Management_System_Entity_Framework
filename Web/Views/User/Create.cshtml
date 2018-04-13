@@ -1,0 +1,97 @@
+﻿@model Web.ViewModels.UserViewModel
+
+@{
+    ViewBag.Title = "CreateUser";
+}
+
+<h2>CreateUser</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>UserViewModel</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control",required="true",type="email" } })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model =>model.Role, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div id="Role" >
+            admin    @Html.RadioButtonFor(model => model.Role,"admin")
+             user    @Html.RadioButtonFor(model => model.Role, "user", new { @checked = "checked" })
+                @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" , required = "true" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsActive, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div class="radio">
+                @Html.CheckBoxFor(model => model.IsActive)
+                @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ListOfAllFacilities, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.ListBoxFor(model => model.ListOfFacilityIds, new MultiSelectList(Model.ListOfAllFacilities, "Id", "Name"))
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default"onclick="return check()"/>
+        </div>
+    </div>
+
+</div>
+}
+<script>
+    function check() {
+        //alert("cool");
+        var dropdown1 = document.getElementById('ListOfFacilityIds');
+        var a = dropdown1.options[dropdown1.selectedIndex];
+        //alert("Please Check the FacilityAssigned to the user");
+        if (a) {
+            return true;
+        }
+        else {
+            alert("Select The Facility You Want to Assign to the user");
+            return false;
+        }
+    }
+</script>
+<div>
+    @Html.ActionLink("Back to UserList", "UserList","User")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

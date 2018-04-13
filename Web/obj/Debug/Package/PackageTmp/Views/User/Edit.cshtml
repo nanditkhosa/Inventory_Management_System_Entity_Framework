@@ -1,0 +1,121 @@
+﻿@model Web.ViewModels.UserViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>UserViewModel</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.ListOfAllFacilities,"Facilities Assigned",htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", required = "true",id="facility_assigned" } })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div id="Role">
+                admin    @Html.RadioButtonFor(model => model.Role, "admin")
+                user    @Html.RadioButtonFor(model => model.Role, "user")
+                @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger", required = "true" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsActive, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.IsActive)
+                @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group" id="listbox">
+        @Html.LabelFor(model => model.ListOfAllFacilities, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.ListBoxFor(model => model.ListOfFacilityIds, new MultiSelectList(Model.ListOfAllFacilities, "Id", "Name"))
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" onclick="return check()" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to UserList", "UserList", "User")
+</div>
+
+<script>
+
+    var facilityeditor = document.getElementById("facility_assigned");
+    var facility_collection = [];
+    var result = "";
+    @foreach(var facility in Model.ListOfFacilitiesAssigned)
+    {
+        @:facility_collection.push("@facility.Name");
+    }
+
+    for (var i = 0; i < facility_collection.length; i++) {
+        result = result +" , "+ facility_collection[i];
+    }
+    
+    facilityeditor.value = result;
+
+    function check() {
+        //alert("cool");
+        var dropdown1 = document.getElementById('ListOfFacilityIds');
+        var a = dropdown1.options[dropdown1.selectedIndex];
+        //alert("Please Check the FacilityAssigned to the user");
+        if (a) {
+            return true;
+        }
+        else {
+            alert("Select The Facility You Want to Assign the user");
+            return false;
+        }
+    }
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

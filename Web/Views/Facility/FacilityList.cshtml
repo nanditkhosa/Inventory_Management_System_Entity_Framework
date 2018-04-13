@@ -1,0 +1,43 @@
+﻿@model Web.ViewModels.StandardIndexViewModel
+@{
+    ViewBag.Title = "Facilities";
+}
+<div class="tray_main">
+    <h2>Active Facility List</h2>
+    <span style="word-spacing: 30px">
+        @Html.ActionLink("InactiveFacilities", "InactiveFacilityList", "Facility")
+        @Html.ActionLink("ActiveFacilities", "FacilityList", "Facility")
+    </span>
+    <table class="table-bordered">
+        <tr>
+            <th>
+                Facility Name
+            </th>
+            <th>
+                Landmark
+            </th>
+            <th>
+                Actions
+            </th>
+
+        </tr>
+
+
+        @foreach (var item in Model.Facilities)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Landmark)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit/Deactivate Facility", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+</div>
